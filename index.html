@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <title>COV survey</title>
+  <head>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+  </head>
+  <h1 id=title class=text-center>COV survey form
+  </h1>
+    <p id=description class=description-text-center>
+      Thank you for taking the time to help improve this website!
+    </p>
+    <form id=survey-form>
+      <div class=form-group>
+        <label id=name-label for=name>Name</label>
+          <input 
+          type=text
+          name=name
+          id=name
+          class=form-control
+          placeholder="enter your name" required />
+        </label>
+      </div>
+      <div class=form-group>
+        <label id=email-label for=email>Email</label>
+          <input 
+          type="email"
+          Name="email"
+          id="email"
+          class="form-control"
+
+          placeholder="enter your email" required
+          />
+      <div class=form-group>
+        <label id=number-label for=number>Age<span class=clue>(optional)</span>
+
+        </label>
+        <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="age"
+        />
+      </div>  
+        <p>
+          Which option best describes your current skillset?
+        </p>  
+        <select id="dropdown" name=skillset class="form-control" required>
+          <option disabled selected value>select current skillset</option>
+          <option value="Graphic-design">Graphic-design</option>
+          <option value="audio-engineer">Audio-engineer
+          </option>
+          <option value="photographer">Photographer</option>
+          <option value="artist">Artist</option>
+        </select>
+        <div class=form-group>
+          <p>
+            Would you recommend The COV to a friend?
+          </p>
+          <label>
+            <input name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            Checked
+            />definitely</label>
+          
+          <label>
+            <input name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+            
+            />Maybe</label>
+
+            <label>
+              <input 
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not-sure</label>
+
+
+          
+        </div>
+        <div class="form-group">
+          <p>
+            Any comments or suggestions?
+          </p>
+          <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comments here...."></textarea>
+        
+        </div>
+        <div class=form-group>
+          <button
+          type="submit"
+          id="submit"
+          class="submit-button">Submit</button>
+        </div>
+      
+      
+    </form>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+<body>
+  
+</body>
+</html>
